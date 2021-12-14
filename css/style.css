@@ -1,3 +1,23 @@
+/* MISCELLANEOUS */
+
+
+
+/* NAVIGATION */
+
 div#nav .nav-link{
     color: #000000;
+}
+
+/* CONTENT */
+
+
+
+/* FOOTER */
+
+div#footer{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px 10px 20px 10px;
+    height: 45px;
+    width: 100%;
 }

@@ -12,10 +12,17 @@ nav#navbar{
 }
 
 /* CONTENT */
-
-#content .text{
-    padding: 10px 5px 10px 5px;
-    margin: 5px 2px 5px 2px;
+#carousel {
+    margin: 10px 10px 10px 10px;
+    background-color: #696969;
+    align-content: center;
+}
+#carousel img{
+    align-self: center;
+}
+h1, p {
+    padding: 10px 5px 10px 15px !important;
+    margin: 5px 2px 5px 2px !important;
 }
 
 /* FOOTER */

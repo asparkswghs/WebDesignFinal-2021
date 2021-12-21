@@ -78,10 +78,125 @@
             </h1>
           </div> 
           <div class="row">
-            <p class="text col-xs-12">
-              Looking for reliable Free and Open Source Software? The FOSS Compendium is a near-exhaustive list of Free Open Source Software for all kinds of activites, from simple CLI utilities to fully-capable webservers. All programs listed are available for most major Linux distributions, and most are also available as macOS and Microsoft Windows binaries. A few are also available for FreeBSD (you can always compile them yourself though, as they're open source).
-              All programs listed here are from reputable developers.
-            </p>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      GIMP
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">GIMP, or 'GNU Image Manipulation Program' is an open source image editor. It is very robust, and it's many features can be daunting at first. Once mastered, however, it can be an extremely powerful tool.<br>
+                      It's available for windows macOS and linux: <br>
+                      Windows: <a href="https://www.gimp.org/downloads/">Download</a>; macOS (homebrew): <code>brew install gimp</code>; and most Linux Distributions: debian-based- <code>sudo apt install gimp</code>, flatpak- <code>flatpak install https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref</code>.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      VSCodium
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      VSCodium is a precompiled package of the open-source portion of Microsoft's 'Visual Studio Code'. It has all the features of VSCode, but is fully open-source.<br>
+                      It's available as a flatpak <code>sudo flatpak install vscodium</code>, and on macOS via brew: <code>brew install vscodium</code>. It's also available for windows via winget: <code>winget install vscodium</code>.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Audacity
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Audacity is an audio editor that accepts a wide variety of audio formats. You can add multiple tracks, add filters and sound effects, etc.<br>
+                      It's also available for Linux, macOS and Windows. It's called <code>audacity</code> and is in the default <code>brew</code>, <code>apt</code>, and <code>winget</code> repos.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      Inkscape
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Inkscape is a vector-based drawing and image editing tool. It's much simpler than GIMP, but it does best with .svg files. <br>
+                      It's called <code>inkscape</code> in most package manager's default repos.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                      Firefox
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Firefox is the defacto open-source web browser, and I'm sure you've heard of it. It's pretty standard and fully-features, and hasn't failed me yet.<br>
+                      It's available as a snap <code>sudo snap install firefox</code>, and availabe for download as a tarball or other binaries<a href="https://www.mozilla.org/en-US/firefox/new/"> from Mozilla's website</a>.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                      Pithos
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      Pithos is a lightweight python-based client for Pandora Radio. While maintenance seems to have stopped, it's still worth a mention. It's simplicity is beautiful.<br>
+                      It's only available on Debian-based linux, as it's a small project. <code>sudo apt install pithos</code>.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                      OBS
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      OBS, an acronym for 'Open Broadcaster Software' is a livestreaming and recording software. <br>
+                      It's available for Linux, macOS, and Windows. apt: <code>sudo apt install obs-studio</code>, homebrew: <code>brew install obs-studio</code>, or for <a href="https://obsproject.com/download">download</a>.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                      Neofetch
+                    </button>
+                  </h2>
+                  <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      An important component of all rices, Neofetch is a beautiful command-line too that displays info about your system, along with ASCII art of your distro or operating system.<br>
+                      It's available on <code>brew</code>, <code>winget</code>, and nearly all linux package managers as <code>neofetch</code>.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingNine">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                      Wine
+                    </button>
+                  </h2>
+                  <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                    A recursive acronym for 'Wine Is Not an Emulator', Wine is a compatibility layer for Linux, BSD, and macOS (and Solaris Unix, and any other POSIX-compliant operating system you may come accross) that allows you to run most Windows programs on POSIX systems by translating the Windows API calls into POSIX calls, among other things.<br>
+                    It's available, as I said before, for all currently-maintained POSIX-compliant operating systems, with <a href="https://wiki.winehq.org/Download">instructions on their website</a>. 
+                    </div>
+                  </div>
+                </div>
+              </div> 
           </div>         
         </div>
           
